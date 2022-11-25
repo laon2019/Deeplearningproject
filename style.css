@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+
+/*헤더*/
+header{
+    
+    text-align: center;
+    padding-top: 30px;
+    font-size: x-large;
+    
+}
+header a{
+    text-decoration: none;
+    color: orange;
+    text-transform: uppercase;
+}
+header a:hover{
+    color: rgb(187, 187, 187);
+}
+
+/*로그인*/
+#log{
+    text-align: center;
+}
+#login{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: x-large;
+    padding-right: 5px;
+}
+#signup{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: x-large;   
+    padding-left: 5px;
+}
+#log a:hover{
+    color: orange;
+}
+
+
+body{
+    background-color: rgb(43, 43, 43);
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 20px;
+}
+.row{
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+}
+.col{
+    width: 50%;
+    padding: 24px;
+}
+#hire-section{
+    padding:130px 0;
+    
+}
+
+.text-wrap {
+    width: 100%;
+}
+.text-wrap h1{
+    color: white;
+    font-size: 54px;
+    font-weight: normal;
+    line-height: 72px;
+}
+.text-wrap h1 strong{
+    display: block;
+    font-weight: bolder;
+    color: orange;
+}
+.text-wrap p{
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+}
+.hire-wrap li{
+    list-style: none;
+    position: relative;
+    width: 100%;
+    border: 1px solid rgba(255,255,255,0.3);
+    margin-bottom: 24px;
+    border-radius: 8px;
+    transition: 0.7s;
+}
+.hire-wrap li a{
+    display: block;
+    padding: 24px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.hire-wrap li span{
+    position: absolute;
+    right: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.hire-wrap li:hover{
+    background-color: orange;
+}
+.hire-wrap{
+    padding: 0;
+}
+
+#about{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: orange;
+    
+}
+
+
+
+/* 로그인 */
+.login_main {
+    display: flex;height: 50%;width: 50%; flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid lightgrey;
+    border-radius: 5px;
+    position: absolute; left: 50%; transform: translateX(-50%);
+}
+
+.logo {
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#login2 {
+    width: 100%;
+    background-color: lightgray;
+    border-color: transparent;
+    color: white;
+}
+#login2 a:hover{
+    font-size: large;
+}
+.sign in{
+    width: 100%;
+    background-color: lightgray;
+    border-color: transparent;
+    color: white;
+}
+.find_pw{
+    margin-left: 6px;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+
+.account {
+    display: block;
+    margin-bottom: 3px;
+    padding: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+
+
+
+  
+
+
+/*반응형 태블릿*/
+@media screen and (max-width: 768px) {
+    #hire-section{
+        padding:30px 0;
+    }
+    #hire-section .row{
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+    .text-wrap h1{
+        text-align: center;
+    }
+    .text-wrap p{
+        text-align: center;
+    }
+    .navbar ul li{
+        padding:0px 10px;
+    }
+    .text-wrap2 h1{
+        text-align: center;
+    }
+    .text-wrap2 p{
+        text-align: center;
+    }
+    
+}
+/*모바일*/
+@media screen and (max-width: 480px) {
+    .text-wrap h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .text-wrap p{
+        font-size:  14px;
+        line-height: 24px;
+    }
+    .text-wrap2 h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .text-wrap2 p{
+        font-size:  14px;
+        line-height: 24px;
+    }
+    .hire-wrap li{
+        margin-bottom: 16px;
+    }
+    .hire-wrap li a{
+        padding: 16px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .navbar ul li{
+        padding:0px 5px;
+        letter-spacing: 5px;
+    }
+    
+    
+}
