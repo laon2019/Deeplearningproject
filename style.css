@@ -12,7 +12,7 @@ header{
 }
 header a{
     text-decoration: none;
-    color: orange;
+    color: chocolate;
     text-transform: uppercase;
 }
 header a:hover{
@@ -38,7 +38,7 @@ header a:hover{
     padding-left: 5px;
 }
 #log a:hover{
-    color: orange;
+    color: chocolate;
 }
 
 
@@ -77,7 +77,7 @@ body{
 .text-wrap h1 strong{
     display: block;
     font-weight: bolder;
-    color: orange;
+    color: chocolate;
 }
 .text-wrap p{
     color: white;
@@ -108,7 +108,7 @@ body{
     color: white;
 }
 .hire-wrap li:hover{
-    background-color: orange;
+    background-color: chocolate;
 }
 .hire-wrap{
     padding: 0;
@@ -121,7 +121,7 @@ body{
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    background-color: orange;
+    background-color: chocolate;
     
 }
 
