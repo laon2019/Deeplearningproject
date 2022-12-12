@@ -7,8 +7,8 @@ body {
     padding: 15% 3%;
     margin: 0 auto;
     border-radius: 10px;
-    border: solid 1.6px #f6f7fa;
-    background-color: #f6f7fa;
+    border: solid 1.6px #fff;
+    background-color: #fff;
 }
 
 .file-upload-btn {
@@ -126,13 +126,13 @@ body {
   font-family: NanumSquareR;
   line-height: 1.68;
   text-align: left;
-  color: orange;
+  color: chocolate;
   font-weight: bolder;
   font-size: x-large; 
 }
 
 .navbar-light .navbar-toggler {
-    border-color: orange;
+    border-color: chocolate;
 }
 
 .section {
@@ -143,7 +143,7 @@ body {
   font-family: NanumSquareR;
   line-height: 1.67;
   text-align: center;
-  color: orange;
+  color: chocolate;
 }
 
 
